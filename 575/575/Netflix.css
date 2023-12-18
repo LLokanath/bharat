@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+navbar{
+    display:flex;
+    height:50px;
+    width:100%;
+    background-color: transparent;
+
+}
+navbar img{
+    height:50px;
+    width:250px;
+    background-color: pink;
+}
+navbar select{
+    margin-top:12px;
+    margin-left: 900px;
+    height:30px;
+}
+navbar button{
+    margin-left:100px;
+    margin-top:12px;
+    height:30px;
+    background-color: red;
+}
+navbar a{
+    text-decoration: none;
+}
+#Div1{
+    height:1000px;
+    margin-top:-80px;
+    width:100%;
+    background-image: url(https://www.entoin.com/images/focus_2381941.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Div1 h1{
+    position:relative;
+    top:400px;
+    left:350px;
+    color:yellowgreen;
+
+}
+#Div1 h4{
+    position:relative;
+    top:400px;
+    left:370px;
+    color:khaki;
+
+}
+#Div1 h2{
+    position:relative;
+    top:400px;
+    left:350px;
+    color:yellow;
+}
+#Div1 #In{
+    position:relative;
+    top:0px;
+    left:550px;
+    height:50px;
+    font-size:15px;
+    width:200px;
+}
+#Div1 button{
+    margin-top:530px;
+    margin-left: 550px;
+    height:50px;
+    width:400px;
+    font-size:30px;
+    background-color: red;
+}
+#Div1 a{
+    text-decoration: none;
+}
+#Div2{
+    height:600px;
+    width:100%;
+    background-color: black;
+    margin-top: -150px;
+}
+#Div2 h1{
+    height:38px;
+    width:20%;
+    margin-left:180px;
+    color:white;
+    position:relative;
+    top:250px;
+}
+#Div2 h3{
+    height:50px;
+    width:40%;
+    margin-left:150px;
+    color:white;
+    position:relative;
+    top:300px;
+}
+#Div2 img{
+    background-size: 100% 100%;
+    margin-bottom:80px;
+    color:white;
+    background-image: url(/HTML/Images/Barbie.jpg);
+    margin-left: 50%;
+
+}
+#Div3{
+    height:600px;
+    width:100%;
+    background-color: black;
+    margin-top: -20px;
+}
+#Div3 h1{
+    height:38px;
+    width:40%;
+    margin-left:600px;
+    color: white;
+    position:relative;
+    top:250px;
+}
+#Div3 h3{
+    height:50px;
+    width:20%;
+    margin-left:650px;
+    color: white;
+    position:relative;
+    top:300px;
+}
+#Div4{
+    height:600px;
+    width:100%;
+    background-color: black;
+    margin-top: -30px;
+}
+#Div4 h1{
+    height:38px;
+    width:20%;
+    margin-left:180px;
+    color:white;
+    position:relative;
+    top:250px;       
+}
+#Div4 h3{
+    height:50px;
+    width:40%;
+    margin-left:150px;
+    color: white;
+    position:relative;
+    top:300px;         
+}
+#Div4 img{
+    background-size: 100% 100%;
+    margin-bottom:80px;
+    background-color:pink;
+    background-image: url(/HTML/Images/Once\ Upon\ a\ Time\ in\ Hollywood.png);
+    margin-left: 50%;         
+}
+#Div5{
+    height:600px;
+    width:100%;
+    background-color: black;
+    margin-top: 12px;
+}
+#Div5 img{
+    height:200px;
+    width:30%;
+    background-size: 100% 100%;
+    margin-bottom:80px;
+    background-color:pink;
+    margin-top: 200px;
+    margin-left:200px;
+}
+#Div5 h1{
+    height:38px;
+    width:40%;
+    margin-left:800px;
+    color: white;
+    position:relative;
+    top:-300px;
+}
+#Div5 h3{
+    height:150px;
+    width:40%;
+    margin-left:800px;
+    color: white;
+    position:relative;
+    top:-300px;         
+}
+#Div6{
+    height:680px;
+    width:100%;
+    background-color: black;
+    color:white;
+    margin-top: 12px;         
+}
+#Div6 h1{
+    margin-left:550px;
+    margin-bottom: 30px;
+}
+#Div6 summary{
+
+    background-color: pink;
+    margin-left: 530px;
+    width:250px;
+    color:black;
+}
+#Div6 div h3{
+    margin-left:550px;
+}
+#Div6 div #In2{
+    margin-left:600px;
+    margin-top:30px;
+    height:30px;
+    font-size: 15px;
+}
+#Div6 div button{
+    height:40px;
+    width:330px;
+    font-size: 20px;
+    background-color: red;
+}
+#Div6 div a{
+    text-decoration: none;
+}
+#Div7{
+    height: 250px;
+    width: 100%;
+    background-color: black;
+    margin-top: 13px;
+}
+#Div7 h2{
+    margin-top:10px;
+    margin-left: 120px;
+    color:white;
+    font-size: 12px;
+}
+#Div7 h2 a{
+    margin-top:60px;
+    color:white;
+    font-size: 12px;
+
+}
+.parent{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; /*used for no space at the end of each row background color is not seen*/
+    row-gap: 30px;
+    column-gap: 30px;
+    width:100%;
+    border: 2px solid black;
+    display:grid;
+    margin-left: 120px;
+    color:white;
+}
